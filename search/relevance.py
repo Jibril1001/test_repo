@@ -1,6 +1,6 @@
 """Relevance scoring for the search service."""
 
-WEIGHTS = {"title": 1.0, "body": 0.5, "freshness": 0.2}
+WEIGHTS = {"title": 1.2, "body": 0.5, "freshness": 0.3}
 
 
 def score(hit: dict) -> float:
