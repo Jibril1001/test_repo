@@ -3,7 +3,7 @@
 import httpx
 
 GATEWAY_URL = "https://payments.shopfast.example/api/v1/charges"
-TIMEOUT_S = 30.0
+TIMEOUT_S = 3.0
 
 
 def charge(amount_cents: int, customer_id: str, idempotency_key: str) -> dict:
